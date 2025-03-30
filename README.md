@@ -4,13 +4,13 @@ This project evaluates the effectiveness of a digital ad campaign using A/B test
 
 ---
 
-## 🧪 Objective
+## Objective
 
 To determine whether users exposed to **ads** convert at a significantly higher rate than those exposed to **PSAs**, and identify **when** and **how much ad exposure** maximizes conversion.
 
 ---
 
-## 👥 Experiment Setup
+## Experiment Setup
 
 | Group         | Description                                  |
 |---------------|----------------------------------------------|
@@ -19,19 +19,19 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 📊 Metrics
+## Metrics
 
-### ✅ Primary Metric
+### Primary Metric
 - **Conversion Rate**: Proportion of users who completed a desired action (`converted = True`)
 
-### 📈 Secondary Metrics
+### Secondary Metrics
 - `total ads`: Number of ads shown to a user
 - `most ads day`: Day when most ads were seen
 - `ads time`: Hour (in 12-hour format) of highest ad exposure
 
 ---
 
-## 🧠 Hypotheses
+## Hypotheses
 
 ### Primary Hypothesis
 - **H₀**: Conversion rate is equal between ad and PSA groups  
@@ -43,7 +43,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 🔬 Statistical Methods
+## Statistical Methods
 
 | Test                     | Purpose                                     |
 |--------------------------|---------------------------------------------|
@@ -54,7 +54,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - **Conversion Rate (Ad Group)**: 2.55%  
 - **Conversion Rate (PSA Group)**: 1.79%  
@@ -66,7 +66,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 💡 Actionable Recommendations
+## Actionable Recommendations
 
 1. **Prioritize Ad Delivery on Mondays**, when conversions peak.
 2. **Target peak hours (3–5 PM, 8 PM)** for higher conversion.
@@ -76,7 +76,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 - `marketing_AB.csv` — dataset
 - `marketing_ab_test_notebook.ipynb` — full analysis
@@ -85,7 +85,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 🚀 Tools & Libraries
+## Tools & Libraries
 
 - **Python** (Pandas, NumPy)
 - **Seaborn**, **Matplotlib** — for visualization
@@ -93,7 +93,7 @@ To determine whether users exposed to **ads** convert at a significantly higher 
 
 ---
 
-## 📌 Author
+## Author
 
 **Sankalp Biswal**  
 Data Analyst | Python • SQL • A/B Testing • Statistics  
